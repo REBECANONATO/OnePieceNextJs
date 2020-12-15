@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 
-const NextPage: React.FC = () => {
+const OnePiece: React.FC = () => {
   return (
     <div className="flex flex-col items-center">
       <motion.img
-        src="/img/nextjs.svg"
-        layoutId="nextjs-logo"
+        src="/img/one-piece-logo-18B460B23A-seeklogo.com.png"
+        layoutId="OnePiece"
         transition={{ duration: 0.5 }}
       />
 
@@ -17,7 +17,7 @@ const NextPage: React.FC = () => {
       >
         <Link href="/">
           <a className="bg-gray-900 text-gray-50 px-6 py-3 text-lg font-semibold rounded-xl hover:bg-gray-700 transition">
-            Voltar para a Home
+            Voltar
           </a>
         </Link>
       </motion.div>
@@ -25,4 +25,4 @@ const NextPage: React.FC = () => {
   )
 }
 
-export default NextPage
+export default OnePiece
