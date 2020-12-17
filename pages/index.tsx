@@ -45,7 +45,7 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ duration: 2 }}
       >
-        Conhecendo tanto a derrota quanto a vitória, andando por aí derramando lágrimas, é assim que você se torna um verdadeiro homem. (Shanks)
+        "Conhecendo tanto a derrota quanto a vitória, andando por aí derramando lágrimas, é assim que você se torna um verdadeiro homem." (Shanks)
       </motion.h1>
 
       <motion.div
